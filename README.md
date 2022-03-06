@@ -29,7 +29,7 @@ by the system.</p>
 The installation procedure is very user-friendly and compatible with all browsers
 (Mozilla Firefox,Chrome,Chromium,Opera etc.)
 
-[Go Back to the top](##-Table-of-Contents)
+[Go Back to the top](## Table of Contents)
 
 
 ### Requirements
