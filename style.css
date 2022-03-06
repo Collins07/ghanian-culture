@@ -30,3 +30,23 @@ body{
 #content.open{
     max-height: 2200px;
 }
+.for{
+    margin-top: 5%;
+    overflow: auto;
+    height: 100px;
+    padding: 2%;
+}
+#names{
+    background-color: white;
+    margin-top: 10%;
+    opacity: 200%;
+    height: 450px;
+    border: 2px solid grey;
+    border-radius: 3%;
+    box-shadow: 5px 20px 20px;
+
+}
+.form-label, .form-check-label{
+    font-size: 20px;
+    font-weight: bold;
+}
