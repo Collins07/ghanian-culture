@@ -16,7 +16,7 @@ button.onclick = function(){
 
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (function () {
-    
+
     // Fetch all the forms we want to apply custom Bootstrap validation styles to
     var forms = document.querySelectorAll('.needs-validation')
 
@@ -33,3 +33,7 @@ button.onclick = function(){
         }, false)
       })
   })()
+
+  var year = document.getElementById("year");
+  var month = document.getElementById("month");
+  var day = document.getElementById("day");
