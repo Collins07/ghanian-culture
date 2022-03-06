@@ -37,3 +37,11 @@ button.onclick = function(){
   var year = document.getElementById("year");
   var month = document.getElementById("month");
   var day = document.getElementById("day");
+
+  function b() {
+    var dates = new Date(year.value, month.value, day.value);
+    var days = dates.getDay();
+  alert(days)
+
+
+  }
