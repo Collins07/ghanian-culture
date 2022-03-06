@@ -50,3 +50,13 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+a{
+    margin-left: 45%;
+    border: 1px solid rgb(56, 54, 54);
+    width: 400px;
+    padding: 2%;
+    background: #29de92;
+    color: black;
+    font-weight: bolder;
+    border-radius: 10px;
+}
