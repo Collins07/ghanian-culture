@@ -8,3 +8,8 @@ h1{
  table{
     width: 60%;
 }
+body{
+    background: url("wall3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
