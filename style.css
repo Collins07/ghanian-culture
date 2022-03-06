@@ -13,3 +13,20 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#content{
+    width: 70%;
+    margin-left: 15%;
+    background-color: #21ABA5;
+    opacity: 70%;
+    margin-top: 2%;
+    max-height:260PX;
+    overflow: hidden;
+    padding: 2%;
+    border-radius: 10PX;
+    box-shadow: 5px 10px 10px;
+    color: black;
+    font-size: 18PX;
+}
+#content.open{
+    max-height: 2200px;
+}
