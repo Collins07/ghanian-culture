@@ -34,14 +34,12 @@ button.onclick = function(){
       })
   })()
 
-  var year = document.getElementById("year");
-  var month = document.getElementById("month");
-  var day = document.getElementById("day");
+  function b(){
+    let date = document.getElementById("birthdya");
+    let current = new Date(birthday.value);
+    let days = current.getDay();
+    alert (days)
 
-  function b() {
-    var dates = new Date(year.value, month.value, day.value);
-    var days = dates.getDay();
-  alert(days)
 
 
   }
