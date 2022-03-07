@@ -60,3 +60,13 @@ a{
     font-weight: bolder;
     border-radius: 10px;
 }
+#btn{
+    width: 15%;
+    border-radius: 5px;
+    margin-left: 1%;
+    background-color: aquamarine;
+    border: none;
+}
+th{
+    text-decoration: underline;
+}

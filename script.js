@@ -38,7 +38,7 @@ button.onclick = function(){
     let date = document.getElementById("birthday");
     let current = new Date(birthday.value);
     let days = current.getDay();
-    alert (days)
+    // alert (days)
 
     const males = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
     const females = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ame"];
@@ -46,7 +46,7 @@ button.onclick = function(){
     let gender = document.getElementById("gender");
     let gender1 = document.getElementById("gender1");
     let both = (gender.checked, gender1.checked);
-    alert(both);
+    // alert(both);
 
 
 
