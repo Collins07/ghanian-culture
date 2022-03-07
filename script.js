@@ -35,34 +35,66 @@ button.onclick = function(){
   })()
 
   function b(){
-    let date = document.getElementById("birthdya");
+    let date = document.getElementById("birthday");
     let current = new Date(birthday.value);
     let days = current.getDay();
     alert (days)
 
+    const males = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+    const females = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ame"];
+
+    let gender = document.getElementById("gender");
+    let gender1 = document.getElementById("gender1");
+    let both = (gender.checked, gender1.checked);
+    alert(both);
 
 
-  if(days===0){
-    alert("your name is Kwasi")
+
+  if(days===0 && both===false){
+    alert("your name is Kwasi because you were born on Sunday")
+  }
+  else if(days===0 && both===true){
+    alert("your name is Akosua because you were born on Sunday")
   }
 
-  else if(days===1){
-    alert("your name is Kwadwo")
+  else if(days===1 && both===false){
+    alert("your name is Kwadwo because you were born on Monday")
   }
-  else if(days===2){
-    alert("your name is Kwabena")
+  else if(days===1 && both===true){
+    alert("your name is Adwoa because you were born on Monday")
   }
-  else if(days===3){
-    alert("your name is Kwaku")
+  else if(days===2 && both===false){
+    alert("your name is Kwabena because you were born on Tuesday")
   }
-  else if(days===4){
-    alert("your name is Yaw")
+  else if(days===2 && both===true){
+    alert("your name is Abenaa because you were born on Tuesday")
   }
-  else if(days===5){
-    alert("your name is Kofi")
+  else if(days===3 && both===false){
+    alert("your name is Kwaku because you were born on Wednesday")
+  }
+  else if(days===3 && both===true){
+    alert("your name is Akua because you were born on Wednesday")
+  }
+  else if(days===4 && both===false){
+    alert("your name is Yaw because you were born on Thursday")
+  }
+  else if(days===4 && both===true){
+    alert("your name is Yaa because you were born on Thursday")
+  }
+  else if(days===5 && both===false){
+    alert("your name is Kofi because you were born on Friday")
+  }
+  else if(days===5 && both===true){
+    alert("your name is Afua because you were born on Friday")
+  }
+  else if(days===6 && both===false){
+    alert("your name is Kwame because you were born on Saturday")
+  }
+  else if(days===6 && both===true){
+    alert("your name is Ame because you were born on Saturday")
   }
   else {
-    alert("your name is Kwame")
+    alert("Enter valid details")
   }
 
   }
